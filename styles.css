@@ -1,0 +1,46 @@
+/* body{
+    background-color: hotpink;
+} */
+
+/*
+flexbox applied its rules to children elements
+therefore in the case where there are three divs in a body tag
+the body tag will contain the display: flex rule
+*/
+.children{
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+
+    /*centering the letters*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+body{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* does things according MAIN axis*/
+    align-items: center;/*does things according to the CROSS axis*/
+    border: 1px solid black;
+}
+
+
+ 
+/*
+flex-direction: row
+  main axis: left to right
+  cross axis: top to bottom
+flex-direction: column
+  main axis: top to bottom
+  cross axios: left to right
+*/
+
+
+
+
